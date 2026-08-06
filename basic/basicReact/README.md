@@ -28,7 +28,8 @@ npm run build
 
 ## 📸 Screenshot
 
-_Add a screenshot of your chatbot here._
+<img width="1919" height="941" alt="Screenshot 2026-08-06 170717" src="https://github.com/user-attachments/assets/9ad492b3-8cc7-4835-accf-dd76c90c8069" />
+
 
 ## 🌐 Live Demo 
 

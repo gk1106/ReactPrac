@@ -1,4 +1,4 @@
-import ChatMessage from "./ChatMessage";
+import ChatBubble from "./ChatBubble";
 import { useState,useEffect,useRef } from "react";
 import Chatbot from "./chatbot";
 

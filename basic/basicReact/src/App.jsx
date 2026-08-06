@@ -1,6 +1,4 @@
-import  Practice from "./Components/Practice";
-import Chatbot from "./Components/Chatbot";
-import Input from "./Components/Input";
+
 import ChatMessage from "./Components/ChatMessage";
 import { useState } from "react";
 

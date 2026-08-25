@@ -1,4 +1,5 @@
 import ChatBubble from "./ChatBubble";
+import dayjs from "dayjs";
 
 import { useRef,useEffect } from "react";
 
@@ -6,6 +7,8 @@ function ChatMessage(props){
     //console.log(Chatbot);
 
      const bottomRef=useRef(null);
+    //  const time=dayjs(props.time).valueOf();
+   
 
 
      useEffect(()=>{
@@ -25,6 +28,7 @@ function ChatMessage(props){
             return <ChatBubble 
             message={msg.message}
             sender ={msg.sender}
+            time={props.time}
             key={crypto.randomUUID()}
             />
         })}

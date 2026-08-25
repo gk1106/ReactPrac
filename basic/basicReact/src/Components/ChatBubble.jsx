@@ -1,4 +1,4 @@
-function ChatBubble({ message, sender }) {
+function ChatBubble({ message, sender ,time }) {
   return (
     <div
       className={`flex mb-4 ${
@@ -15,16 +15,22 @@ function ChatBubble({ message, sender }) {
         <img
           src={
             sender === "user"
-              ? "https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
+              ? "https://cdn-icons-png.flaticon.com/512/1077/1077114.png" 
               : "https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
           }
           alt={sender}
           className="w-12 h-12 rounded-full"
         />
 
-        <p className="text-white px-3 break-words">
-          {message}
-        </p>
+        <div className="flex flex-col px-3">
+          <p className="text-white break-words">
+            {message}
+          </p>
+
+          <span className="text-gray-400 text-xs text-right mt-1">
+            {time}
+          </span>
+        </div>
       </div>
     </div>
   );

@@ -1,10 +1,12 @@
 import Input from "./Components/Input";
 import ChatMessage from "./Components/ChatMessage";
+import dayjs from "dayjs";
 import { useState } from "react";
 
 function App() {
 
       const [Messages,setMessages]=useState([]);
+       const time=dayjs().format('h:mm A');
 
         
   return (
@@ -13,7 +15,7 @@ function App() {
 
                     {/* Messages */}
                     <div className="flex-1 overflow-y-auto p-4">
-                        <ChatMessage messages={Messages} />
+                        <ChatMessage messages={Messages} time={time} />
                     </div>
 
                     {/* Input */}

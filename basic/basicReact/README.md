@@ -1,18 +1,44 @@
-# React + Vite
+# 🤖 React Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple chatbot application built using **React**, **Vite**, and **Tailwind CSS**. The chatbot provides quick responses with a clean and modern user interface.
 
-Currently, two official plugins are available:
+Go to the project folder:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+cd react-chatbot
+```
 
-## React Compiler
+Install dependencies:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+```bash
+npm install
+```
 
-Note: This will impact Vite dev & build performances.
+Start the development server:
 
-## Expanding the Oxlint configuration
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Build for production:
+
+```bash
+npm run build
+```
+
+## 📸 Screenshot
+
+<img width="1919" height="941" alt="Screenshot 2026-08-06 170717" src="https://github.com/user-attachments/assets/9ad492b3-8cc7-4835-accf-dd76c90c8069" />
+
+
+## 🌐 Live Demo 
+
+[https://your-project.vercel.app](https://chatbot-henna-beta-57.vercel.app/)
+
+
+
+## 👨‍💻 Author
+
+**Ganeshkumar V**
+
+GitHub: https://github.com/gk1106
